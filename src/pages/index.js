@@ -1,16 +1,16 @@
-import Head from "next/head";
 import { Navbar } from "../components/navbar/navbar";
 import { Sec1 } from "../components/index/sec1";
+import { Sec2 } from "../components/index/sec2";
+import { Sec3 } from "../components/index/sec3";
 
 export default function Home() {
     return (
         <div>
-            <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <Navbar />
+
             <Sec1 />
+            <Sec2 />
+            <Sec3 />
         </div>
     );
 }
