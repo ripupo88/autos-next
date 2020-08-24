@@ -3,11 +3,11 @@ import "./navbar.module.css";
 
 export const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg py-3 navbar-light  shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light  shadow-sm">
             <a href="#" class="navbar-brand">
                 <img
-                    src="logo.png"
-                    width="135"
+                    src="./rpr-logo.svg"
+                    width="115"
                     alt=""
                     class="d-inline-block align-middle mr-2"
                 />

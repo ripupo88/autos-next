@@ -26,8 +26,8 @@ export const Sec2 = () => {
                     .cKJzHK {
                         background-image: url("./assets/img/bg1.jpg");
                         background-size: cover;
-                        opacity: 0.3;
-                        height: 70vh;
+                        opacity: 0.4;
+                        height: 80vh;
                         background-color: black;
                         width: 100%;
                         position: absolute;
@@ -39,9 +39,9 @@ export const Sec2 = () => {
                     }
                     .hctKJM {
                         position: relative;
-                        min-height: 70vh;
+                        min-height: 80vh;
                         z-index: 1;
-                        padding: 90px 30px;
+                        padding: 20px 30px;
                     }
                 `}
             </style>
