@@ -1,5 +1,7 @@
+import { Navbar } from "../components/navbar/navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/global.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "../styles/global.scss";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
@@ -9,16 +11,16 @@ function MyApp({ Component, pageProps }) {
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
+            <Navbar />
             <div className="container-fluid p-0 m-0">
                 <div className="row p-0 m-0">
                     <Component {...pageProps} />
                 </div>
                 <footer>
-                    <p>
+                    <p className="mb-0">
                         Copyright &copy; 2020{" "}
-                        <img src="./rpr-logo.svg" alt="logo" /> All Rights
-                        Reserved.
+                        <img src="./rpr-logo.svg" alt="logo" alt="logo RPR" />{" "}
+                        All Rights Reserved.
                     </p>
                 </footer>
                 <style jsx>
@@ -31,12 +33,12 @@ function MyApp({ Component, pageProps }) {
                         footer p {
                             color: #cdcdcd;
                             font-size: 1em;
-                            padding: 40px 0;
+                            padding: 20px 0;
                             text-align: center;
                         }
 
                         footer img {
-                            width: 44px;
+                            width: 60px;
                         }
                     `}
                 </style>

@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
-<svg width="602" height="258" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="640" height="222" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
     <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
     <g class="layer">
         <title>Layer 1</title>
-        <ellipse cx="301.499989" cy="128.500001" fill="#007fff" id="svg_6" rx="299.999998" ry="126.999994"
-            stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" />
-        <ellipse cx="301.5" cy="128.5" fill="#000000" id="svg_2" rx="286" ry="113" stroke="#000000"
-            stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" />
-        <text fill="#007fff" font-family="serif" font-size="24" id="svg_1" stroke="#000000" stroke-width="0"
-            text-anchor="middle" transform="matrix(9.24858 0 0 7.72616 -728.047 -831.977)" x="111.878504"
-            xml:space="preserve" y="132.189889">RPR</text>
+        <path
+            d="m3.50002,111.5c0,-59.66851 141.63812,-108 316.49999,-108c174.86187,0 316.49999,48.33149 316.49999,108c0,59.66851 -141.63812,108 -316.49999,108c-174.86187,0 -316.49999,-48.33149 -316.49999,-108z"
+            fill="#bfbfbf" id="svg_1" stroke="#000000" stroke-width="5" />
+        <ellipse cx="316.99999" cy="109.50001" fill="#000000" id="svg_3" rx="272.49999" ry="87.00001" stroke="#000000"
+            stroke-width="5" />
+        <text fill="#bfbfbf" font-family="serif" font-size="24" id="svg_6" stroke="#000000" stroke-width="0"
+            text-anchor="middle" transform="matrix(9.1751 0 0 8.14922 -1422.22 -1871.03)" x="190.39741"
+            xml:space="preserve" y="250.713">RPR</text>
     </g>
 </svg>

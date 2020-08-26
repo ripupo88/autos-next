@@ -1,18 +1,20 @@
-import React from "react";
-import "./navbar.module.css";
+import Link from "next/link";
+import "./navbar.module.scss";
 
 export const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light  shadow-sm">
-            <a href="#" class="navbar-brand">
+        <nav className="navbar navbar-expand-lg navbar-light  shadow-sm ">
+            <a href="#" className="navbar-brand">
                 <img
                     src="./rpr-logo.svg"
                     width="115"
-                    alt=""
-                    class="d-inline-block align-middle mr-2"
+                    alt="logo rpr"
+                    className="d-inline-block align-middle mr-2"
                 />
 
-                <span class="text-uppercase font-weight-bold">RPR Autos</span>
+                <span className="text-uppercase font-weight-bold">
+                    RPR Autos
+                </span>
             </a>
 
             <button
@@ -22,32 +24,37 @@ export const Navbar = () => {
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
-                class="navbar-toggler"
+                className="navbar-toggler"
             >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">
-                            Home <span class="sr-only">(current)</span>
-                        </a>
+            <div
+                id="navbarSupportedContent"
+                className="collapse navbar-collapse"
+            >
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item active">
+                        <Link href="/">
+                            <a className="nav-link">
+                                Home <span className="sr-only">(current)</span>
+                            </a>
+                        </Link>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            About
-                        </a>
+                    <li className="nav-item">
+                        <Link href="/vehiculos">
+                            <a className="nav-link">Exposición</a>
+                        </Link>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Services
-                        </a>
+                    <li className="nav-item">
+                        <Link href="#">
+                            <a className="nav-link">Services</a>
+                        </Link>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Contact
-                        </a>
+                    <li className="nav-item">
+                        <Link href="#">
+                            <a className="nav-link">Contact</a>
+                        </Link>
                     </li>
                 </ul>
             </div>
